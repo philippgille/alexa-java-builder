@@ -13,7 +13,6 @@ Usage
 -----
 
 ```bash
-cd /path/to/pom-dir
 docker run --rm -v /path/to/pom-dir:/usr/src/mymaven philippgille/alexa-java-builder
 ls /path/to/pom-dir/target/
 example-skill-1.0.jar  example-skill-1.0-jar-with-dependencies.jar  archive-tmp  classes  generated-sources  maven-archiver  maven-status
