@@ -6,8 +6,8 @@ This repository contains the necessary files for the *Alexa Java Builder* Docker
 Supported tags and respective `Dockerfile` links
 ------------------------------------------------
 
-- [`alpine`, `latest` (alpine/Dockerfile)](https://github.com/philippgille/alexa-java-builder/alpine/Dockerfile)
-- [`debian` (Dockerfile)](https://github.com/philippgille/alexa-java-builder/Dockerfile)
+- [`alpine`, `latest` (alpine/Dockerfile)](https://github.com/philippgille/alexa-java-builder/blob/master/alpine/Dockerfile)
+- [`debian` (Dockerfile)](https://github.com/philippgille/alexa-java-builder/blob/master/Dockerfile)
 
 Usage
 -----
