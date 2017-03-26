@@ -3,6 +3,10 @@
 
 This repository contains the necessary files for the *Alexa Java Builder* Docker image.
 
+This image enables you to build a JAR for an Alexa skill AWS Lambda function *without having to install Maven* and also all basic Alexa Skills Kit Java SDK and samples dependencies are *already included in the image*, so that they don't have to be downloaded every time you build with a Maven Docker container.
+
+Note though that any dependencies declared in your `pom.xml` that are *not* part of the Alexa Skills Kit Java SDK or its samples get downloaded with every build when you use this image in a `docker run` command. Create your own image based on this one to include your specific dependencies in an image as well.
+
 Supported tags and respective `Dockerfile` links
 ------------------------------------------------
 
